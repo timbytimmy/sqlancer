@@ -26,6 +26,7 @@ public final class Randomly {
     private static final ThreadLocal<Random> THREAD_RANDOM = new ThreadLocal<>();
     private long seed;
 
+
     private void addToCache(long val) {
         if (useCaching && cachedLongs.size() < cacheSize && !cachedLongs.contains(val)) {
             cachedLongs.add(val);
