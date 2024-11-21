@@ -23,9 +23,9 @@ import sqlancer.common.query.SQLQueryAdapter;
 import sqlancer.common.query.SQLQueryProvider;
 import sqlancer.influxdb.InfluxDBProvider.InfluxDBGlobalState;
 import sqlancer.influxdb.gen.InfluxDBMeasurementGenerator;
-import sqlancer.influxdb.gen.InfluxInsertGenerator;
+import sqlancer.influxdb.gen.InfluxDBInsertGenerator;
 import sqlancer.influxdb.gen.InfluxDBRandomQuerySynthesizer;
-import sqlancer.influxdb.gen.InfluxDBViewGenerator;
+import sqlancer.influxdb.gen.InfluxDBShowGenerator;
 import sqlancer.influxdb.gen.InfluxDBQueryGenerator;
 
 @AutoService(DatabaseProvider.class)
